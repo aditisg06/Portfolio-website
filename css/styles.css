@@ -1,0 +1,166 @@
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.blue{
+    color: #66a7f4;
+}
+
+h1,h5, .Alogo{
+    font-family: 'League Spartan', sans-serif;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.container-fluid{
+    padding: 0;
+    
+}
+.navbar{
+    background-color: #751ef1;
+    padding-left: 2%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    
+}
+.Alogo{
+    color: #BAD7E9;
+}
+
+.titletext{
+    margin-top: 70px;
+    padding: 7%;
+    
+}
+.titletext h1{
+    font-size: 70px;
+}
+.titleimg{
+    width: 25%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    
+}
+
+#about{
+   justify-content: center; 
+    
+}
+
+
+.abouttext{
+    position: absolute;
+    right: 10%;
+    text-align: right;
+    top: 93%;
+    z-index: 1;
+    
+}
+.profileimg{
+    width:30%;
+    margin-left: 20%;
+    border-radius: 8px;
+    margin-top: 10%;
+    box-shadow: 15px 15px 10px #000000;
+    z-index: 1;
+    
+}
+.profileimg:hover{
+    width: 35%;
+}
+.resumebtn{
+    position: absolute;
+    right: 6%;
+    top: 115%;
+    z-index: 1;
+    filter: brightness(200%);
+    filter: contrast(150%);
+    opacity: 1;
+}
+.skilltitle{
+    text-align: center;
+}
+.card{
+    background-color: #000000;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-left: 25%;
+    
+    
+}
+.card-img-top{
+    width:50%;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+.csslogo,.javalogo{
+    width: 40%;
+    
+}
+.mysqllogo{
+    width: 45%;
+}
+.mongologo{
+    filter: brightness(1.25);
+    filter: contrast(1.1);
+}
+.jslogo{
+    width: 94%;
+}
+.card-body{
+    border-style: solid;
+    border-color: #66a7f4;
+    border: 10px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 4px #888888;
+    border-top: 0;
+    border-left: 0;
+}
+
+#carousel{
+    width: 40%;
+    justify-content: center;
+    margin-left: 29%;
+}
+
+
+.projecttext{
+    padding: 50px 70px 50px 70px;
+    
+}
+.projectimg{
+    width: 30%;
+    position: absolute;
+    right: 7%;
+    padding-top: 50px;
+    border-radius: 10px;
+    
+}
+#contact{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    filter: brightness(150%);
+    filter: contrast(150%);
+    
+}
+.contact{
+    padding: 7% 3%;
+}
+#footer{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: #751ef1;
+}
+.footer-logo{
+    margin: 20px 15px;
+}
